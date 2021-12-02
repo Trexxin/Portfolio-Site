@@ -1,0 +1,38 @@
+/*
+Author: Charles Harris
+File Name: styles.css
+Date: 12/1/2021
+ */
+
+/*Css Reset*/
+body, header, nav, main, footer, img, h1, h2, h3, ul {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/*Style rules for body*/
+body {
+    background-color: #000000;
+    font-family: 'Montserrat', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-container {
+    background-color: #202024;
+    position: absolute;
+    overflow: visible;
+    height: 96px;
+    width: max-content;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+
+}
