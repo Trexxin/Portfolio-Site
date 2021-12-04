@@ -15,24 +15,88 @@ body, header, nav, main, footer, img, h1, h2, h3, ul {
 body {
     background-color: #000000;
     font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+/*Style rules for nav*/
+.nav-container {
+    background-color: #202024;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+    padding-right: 63px;
+}
+
+.nav-item a {
+    display: inline-block;
+    padding: 10px 30px;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.logo {
+    display: inline-block;
+    padding: 10px 93px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+/*Style rules for home*/
+.hero {
+    display: flex;
+    margin: 150px 0 auto 93px;
+}
+
+h1 {
+    font-size: 64px;
+    font-weight: bold;
+}
+
+h2 {
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.subtitle {
+    width: min-content;
+}
+
+.contact {
+    flex-direction: row;
 }
 
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    flex-direction: row;
 }
 
-.nav-container {
-    background-color: #202024;
-    position: absolute;
-    overflow: visible;
-    height: 96px;
-    width: max-content;
+li {
 }
 
-header {
+.about {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.contact-icon {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-right: 20px;
+}
+
+.hero-image {
+    position: relative;
+    background-position: right;
     display: flex;
-    justify-content: space-between;
-
+    overflow: visible;
 }
