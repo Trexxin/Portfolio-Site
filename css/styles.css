@@ -52,7 +52,7 @@ body {
 /*Style rules for home*/
 .hero {
     display: flex;
-    margin: 150px 0 auto 93px;
+    margin: auto 0 auto 93px;
 }
 
 h1 {
@@ -98,5 +98,106 @@ li {
     position: relative;
     background-position: right;
     display: flex;
-    overflow: visible;
+    padding-left: 5%;
+    margin-top: 100px;
+}
+
+.content {
+    margin-top: 150px;
+}
+
+#call-to-action {
+    margin-top: 25px;
+}
+
+/*Styles rules for skills*/
+.skills {
+    background-color: #202024;
+    margin: 9% 0 auto 0;
+    text-align: center;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 5%;
+    padding-left: 5%;
+    margin-top: 2%;
+}
+
+.skills-heading {
+    display: flex;
+    flex-direction: column;
+}
+
+.skill-header {
+    display: flex;
+    font-size: 60px;
+    font-weight: normal;
+    justify-content: center;
+}
+
+.skill-header-subtitle {
+    display: flex;
+    font-size: 30px;
+    font-weight: 300;
+    justify-content: center;
+}
+
+.skill-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.inner-skill-header {
+    font-size: 40px;
+    font-weight: 200;
+    margin-bottom: 0;
+}
+
+.skills-icon {
+    display: flex;
+    flex-direction: row; /* change this to row instead of 'column' */
+    flex-wrap: wrap; /* added flex-wrap */
+}
+
+.icons {
+    width: 97px;
+    height: 97px;
+    margin: 2%;
+    flex: 0 0 auto;
+}
+
+.skills-icon:last-of-type {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+}
+
+.skills-icon:first-of-type {
+    justify-content: space-evenly;
+}
+
+#inner-skill-header-accent {
+    margin-bottom: 10%;
+}
+
+#tool-3 {
+    margin-top: 10%;
+}
+
+.inner-skill {
+    width: 150px;
+    font-size: 30px;
+    font-weight: normal;
+    color: #B9B9B9;
+}
+
+.inner-skill p {
+    margin: 0;
 }

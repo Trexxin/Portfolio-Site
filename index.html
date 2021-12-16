@@ -18,60 +18,108 @@ Date: 12/1/2021
 </header>
 <body>
     <nav class="nav-container">
-        <a href="index.html" class="logo">Trexxin<span style="color: #22D1EE">.dev</span></a>
+        <a href="index.html" class="logo">Trexxin<span style="color: #6C63FF">.dev</span></a>
         <ul class="nav-links">
             <li class="nav-item"><a href="#">home</a></li>
             <li class="nav-item"><a href="#">skills</a></li>
             <li class="nav-item"><a href="#">projects</a></li>
         </ul>
     </nav>
-    <div class="hero">
-        <div class="content">
-            <h1>Charles Harris</h1>
-            <div class="subtitle">
-                <h2>Software & Web Dev</h2>
-                <svg width="100%" height="12" viewBox="0 0 100% 12">
-                    <rect id="Rectangle_4" data-name="Rectangle 4" width="100%" height="12" rx="6" fill="#22d1ee"/>
+    <section class="#">
+        <div class="hero">
+            <div class="content">
+                <h1>Charles Harris</h1>
+                <div class="subtitle">
+                    <h2>Software & Web Dev</h2>
+                    <svg width="100%" height="12" viewBox="0 0 100% 12">
+                        <rect id="Rectangle_4" data-name="Rectangle 4" width="100%" height="12" rx="6" fill="#6C63FF"/>
+                    </svg>
+                </div>
+                <div class="about">
+                    <p>I'm a web developer and aspiring software engineer who wants to delve deeper into the world of tech. Learn more about what I know and what I have done below!</p>
+                </div>
+                <!--HIDDEN FOR VISUAL PURPOSES
+                <div class="contact">
+                    <a class="contact-icon" href="#"><img src="images/gmail.png" alt="gmail"></a>
+                    <a class="contact-icon" href="#"><img src="images/github.png" alt="github"></a>
+                    <a class="contact-icon" href="#"><img src="images/linkedin.png" alt="linkedin"></a>
+                </div>
+                -->
+                <svg id="call-to-action" height="81" viewBox="0 0 227 81">
+                    <g id="Group_1" data-name="Group 1" transform="translate(-140 -795)">
+                        <path id="Path_52" data-name="Path 52" d="M40.5,0h146a40.5,40.5,0,0,1,0,81H40.5a40.5,40.5,0,0,1,0-81Z" transform="translate(140 795)" fill="#6c63ff"/>
+                        <text id="LearnMore" data-name="Learn More!" transform="translate(151 818)" fill="#fff" font-size="28" font-family="Montserrat-SemiBold, Montserrat" font-weight="600"><tspan x="17.184" y="27">Learn More!</tspan></text>
+                    </g>
                 </svg>
             </div>
-            <div class="about">
-                <p>I'm a web developer and aspiring software engineer who wants to delve deeper into the world of tech. Learn more about what I know and what I have done below!</p>
-            </div>
-            <div class="contact">
-                <a class="contact-icon" href="#"><img src="images/gmail.png" alt="gmail"></a>
-                <a class="contact-icon" href="#"><img src="images/github.png" alt="github"></a>
-                <a class="contact-icon" href="#"><img src="images/linkedin.png" alt="linkedin"></a>
-            </div>
+            <!--Main Hero Image-->
+            <img class="hero-image" src="images/pair_programming.svg" alt="#">
         </div>
-        <!--Main Hero Image-->
-        <img class="hero-image" src="images/pair_programming.svg" alt="#">
-        <!--Call to Action-->
-        <svg width="82" height="82" viewBox="0 0 82 82">
-        <image id="icons8-down-arrow-256" width="82" height="82" xlink:href="data:image/png;base64,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zPYysx1mttXMHjOzh51zr6aLsEHQCKA2jD4S6NyZv2tCb8XF9HTgdh8P2ObMyG22inPue+Zvb5VZfqrzZ36pAMXuAhwyZD+6CxCI4iMBnfmlGsCnC/wixpoH8KkUfc0J4UVAyd8hTZoJuLb398Vmtsw0E7Aw/IXBVWa29xSbvGZmZ2rYL5VCzwIkAywC7h9wnO4DTk4dn9QrycMJ+Cf0xqz6i5C7zGyxc+5HFbfTOPi7LEf1/rrOObcxZTzSMcC/1HD218qrIjnCz7QKnRZcRmtXBBKJJenzycCxZnafme0XedcvmtkvO+cei7xfaSD8c/jLzGxicZgHzOwe5xzpohIze3NV4C0Rz/xP0dJVgaU4YAF+ufjJxoAFqeMTe/O9AGsiJP9qWvpeACkOv9TZ5iG/L5up8bXqMgT+zUDnUf7NQJ8Fsn7XodQLuCrgd+eq1HFKH/RuQIkE/36/6WxIHWdK2S1S2I/dbwdeaLvfDvySdeDtwDI6YLuZTfeCzx3OuUIvARWRBtAIYHopHgcWqcvKSNuISNPg33kw7C7AJnQXQKS9mHoewGo0DyDvi4DiATPsrTPZ1ppmsgVj90zAxb1/0vGTZgAWMvg11JrJJtJmwHzgSX2HFekg4CvT3MICuDJ1nCJSgd4ZfjrrU8cpzaWLgBkDdpjZdC802e6cm2qNP5GhNBEob1sibSMykApA3kJmqd1QeRQiUj+mf559IzA3dZwiUhH8TLbVA5L/fuCI1PFJs+kiYAPgZ7Ittd0z2daY2Q80k01EREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREQkqv8HL6/AAI8E/LIAAAAASUVORK5CYII="/>
-        </svg>
-    </div>
+    </section>
     <!-- Skill Section -->
     <section class="skills">
-        <h2 class="skill-header">Skills</h2>
-        <h3 class="skill-header-subtitle">Languages & Tools</h3>
+        <div class="skills-heading">
+            <h2 class="skill-header">Skills</h2>
+            <h3 class="skill-header-subtitle">Languages & Tools</h3>
+        </div>
         <div class="skills-container">
-            <ul>
+            <div class="skill-column">
                 <!--Front End-->
-                <li>
-                    <p class="skill-title">Front End</p>
-                    <img src="#" alt="#">
-                </li>
+                <p class="inner-skill-header">Front End</p>
+                <svg id="inner-skill-header-accent" width="81" height="5" viewBox="0 0 81 5">
+                    <rect id="Rectangle_6" data-name="Rectangle 6" width="81" height="5" rx="2.5" fill="#22d1ee"/>
+                </svg>
+                <div class="skills-icon">
+                    <!--Html-->
+                    <div class="inner-skill">
+                        <img class="icons" src="images/html.png" alt="html">
+                        <p>Html</p>
+                    </div>
+                    <!--Css-->
+                    <div class="inner-skill">
+                        <img class="icons" src="images/css.png" alt="css">
+                        <p>Css</p>
+                    </div>
+                </div>
+            </div>
+            <div class="skill-column">
                 <!--Back End-->
-                <li>
-                    <p class="skill-title">Back End</p>
-                    <img src="#" alt="#">
-                </li>
+                <p class="inner-skill-header">Back End</p>
+                <svg id="inner-skill-header-accent" width="81" height="5" viewBox="0 0 81 5">
+                    <rect id="Rectangle_6" data-name="Rectangle 6" width="81" height="5" rx="2.5" fill="#22d1ee"/>
+                </svg>
+                <div class="skills-icon">
+                    <!--Python-->
+                    <div class="inner-skill">
+                        <img class="icons" src="images/python.png" alt="python">
+                        <p>Python</p>
+                    </div>
+                </div>
+            </div>
+            <div class="skill-column">
                 <!--Tools-->
-                <li>
-                    <p class="skill-title">Tools</p>
-                    <img src="#" alt="#">
-                </li>
-            </ul>
+                <p class="inner-skill-header">Tools</p>
+                <svg id="inner-skill-header-accent" width="81" height="5" viewBox="0 0 81 5">
+                    <rect id="Rectangle_6" data-name="Rectangle 6" width="81" height="5" rx="2.5" fill="#22d1ee"/>
+                </svg>
+                <div class="skills-icon">
+                    <!--Github-->
+                    <div class="inner-skill">
+                        <img class="icons" src="images/github-big.png" alt="github">
+                        <p>Github</p>
+                    </div>
+                    <!--Photoshop-->
+                    <div class="inner-skill">
+                        <img class="icons" src="images/photoshop.png" alt="photoshop">
+                        <p>Photoshop</p>
+                    </div>
+                    <!--Adobe XD-->
+                    <div class="inner-skill">
+                        <img class="icons" id="tool-3" src="images/adobe-xd.png" alt="adobe xd">
+                        <p>Adobe Xd</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
     <!-- Project Section -->
