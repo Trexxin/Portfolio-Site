@@ -25,6 +25,9 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: sticky;
+    top: 0;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
 }
 
 .nav-links {
@@ -95,7 +98,7 @@ li {
 }
 
 .hero-image {
-    position: relative;
+    position: static;
     background-position: right;
     display: flex;
     padding-left: 5%;
