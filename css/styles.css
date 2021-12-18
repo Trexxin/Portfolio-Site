@@ -73,10 +73,6 @@ h2 {
     width: min-content;
 }
 
-.contact {
-    flex-direction: row;
-}
-
 ul {
     list-style-type: none;
     margin: 0;
@@ -92,12 +88,6 @@ li {
     font-weight: 500;
 }
 
-.contact-icon {
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    padding-right: 20px;
-}
-
 .hero-image {
     position: static;
     background-position: right;
@@ -110,7 +100,7 @@ li {
     margin-top: 150px;
 }
 
-#learn-more {
+button {
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     color: white;
@@ -122,21 +112,40 @@ li {
     border-radius: 50px;
     width: 227px;
     margin-top: 30px;
+    margin-right: 7%;
     transition-duration: 0.2s;
+    cursor: pointer;
+    vertical-align: middle;
+    text-align: center;
 }
 
-#learn-more a {
+button a {
     text-decoration: none;
     color: white;
 }
 
-#learn-more:hover {
+button:hover {
     background-color: #4B45B2;
 }
 
-#learn-more:visited {
+button:visited {
     text-decoration: none;
 }
+
+.github {
+    vertical-align: -10%;
+    font-size: 40px;
+    padding-right: 7%;
+    text-align: center;
+}
+
+.link {
+    vertical-align: -10%;
+    font-size: 40px;
+    padding-right: 7%;
+    text-align: center;
+}
+
 /*Styles rules for skills*/
 .skills {
     background-color: #202024;
@@ -254,7 +263,7 @@ li {
 
 .inner-portfolio{
     position: absolute;
-    top: 43%;
+    top: 54%;
     left: 53%;
     transform: translate(-50%, -50%);
     font-size: 32px;
@@ -293,4 +302,23 @@ li {
 
 .portfolio-desc {
     margin: 0;
+}
+
+/*Style rules for footer*/
+footer {
+    background-color: #202024;
+    height: 124px;
+    font-weight: 100;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
+
+.contact {
+    flex-direction: row;
+}
+
+.contact-icon {
+    padding-left: 20px;
+    padding-right: 20px;
 }
